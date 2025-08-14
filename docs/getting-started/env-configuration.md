@@ -2803,6 +2803,8 @@ See https://support.google.com/cloud/answer/6158849?hl=en
 
 You must also set `OPENID_PROVIDER_URL` or otherwise logout may not work.
 
+You may need to set `OIDC_END_SESSION_ENDPOINT` for logout to work.
+
 :::
 
 #### `GOOGLE_CLIENT_ID`
